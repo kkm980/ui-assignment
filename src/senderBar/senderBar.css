@@ -1,0 +1,51 @@
+._sendWrapper{
+    position: fixed;
+    margin-top: 50px;
+    bottom: 10px;
+    width: 60%;
+    max-width: 1000px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   /* border: 1px solid red; */
+}
+
+._sendWrapper input{
+    height: 40px;
+    width:90%;
+    padding: 11px 16px 11px 16px;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    border: 0.25px solid rgba(0,0,0,0.22);
+
+}
+
+._send_icon{
+    cursor: pointer;
+    opacity: 0.3;
+    width: 30px;
+    /* height: 50px; */
+}
+._send_icon:hover{
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 900px) {
+    ._sendWrapper{
+        margin-left: 4rem;
+        /* margin-right: 5rem; */
+        width: 85%;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    ._sendWrapper{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        width: 88%;
+    }
+    
+}
+
+
